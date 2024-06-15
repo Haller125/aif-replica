@@ -1,0 +1,28 @@
+{
+  "title": "Request a 2025 Invitation",
+  "subTitle": "Please request for the Astana International Forum",
+  "form": {
+    "fname": "First Name",
+    "lname": "Last Name",
+    "country": "Country",
+    "phone": "Phone",
+    "email": "Email",
+    "company": "Company",
+    "jobt": "Job Title",
+    "persphoto": "Personal photo",
+    "id/passp": "ID/Passport photo",
+    "journalist": "Journalist",
+    "yes": "YES",
+    "consent": "Consent",
+    "consentcontent": "I UNDERSTAND MY DATA WILL BE PROCESSED BY THE GOVERNMENT AUTHORITIES",
+    "confirm": "Confirm",
+    "confirmcontent": "I CONFIRM THAT I ENTERED MY DATA CORRECTLY",
+    "submit": "Submit Form",
+    "fileinput": {
+      "choose": "Choose file",
+      "nofile": "No file chosen",
+      "change": "Change file",
+      "toobig": "File is too big"
+    }
+  }
+}

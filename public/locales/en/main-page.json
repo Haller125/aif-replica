@@ -1,0 +1,32 @@
+{
+  "title": "<1>Empowering People, Uniting Nations:</1> <2>Building a Better World Together</2>",
+  "title1": "Empowering People, Uniting Nations:",
+  "title2": "Building a Better World Together",
+  "date": "13-14 June 2024 <1>Astana, Kazakhstan</1>",
+  "booklet": "AIF Booklet",
+  "programme": "AIF Programme",
+  "register": "Register",
+  "timer": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
+  },
+  "aboutAif": {
+    "title": "About the ",
+    "boldTitle": "AIF",
+    "paragraph1": "As the international community moves towards an era of growing polarization and geopolitical division, Kazakhstan is launching a new platform for dialogue - the Astana International Forum - in order to unite efforts to address key global challenges.",
+    "paragraph2": "The forum will serve as a platform for high-level delegates from foreign governments, international organizations, businesses, and academic circles to engage in dialogue and seek solutions to problems such as climate change, food shortages, and energy security."
+  },
+  "participants": {
+    "title": "Participants",
+    "buttonText": "See all"
+  },
+  "newsSegment": {
+    "title": "News",
+    "buttonText": "All news",
+    "moreAbout": "More"
+  },
+  "forumTopics": "Forum Topics",
+  "congressCenter": "Congress Center"
+}
