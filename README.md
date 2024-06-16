@@ -1,3 +1,16 @@
+# Next.js Web Page Replica
+
+This repository contains a Next.js application that serves as a replica of [AIF site](https://astanainternationalforum.org/en). The project aims to demonstrate the capabilities of Next.js in creating high-performance, server-rendered React applications.
+
+## Features
+- **TypeScript:** Written in TypeScript for improved code quality and maintainability.
+- **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
+- **next-i18next:** Internationalization framework for Next.js applications.
+- **Swiper:** Modern mobile touch slider with hardware-accelerated transitions.
+- **react-hook-form:** Performant, flexible, and extensible forms with easy-to-use validation.
+- **react-select:** Highly customizable select/dropdown components with support for async options.
+- **Axios:** Promise-based HTTP client for the browser and Node.js.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
