@@ -1,6 +1,6 @@
 # Next.js Web Page Replica
 
-This repository contains a Next.js application that serves as a replica of [AIF site](https://astanainternationalforum.org/en). The project aims to demonstrate the capabilities of Next.js in creating high-performance, server-rendered React applications.
+This repository contains a Next.js application that serves as a replica of [AIF webpage](https://astanainternationalforum.org/en). The project aims to demonstrate the capabilities of Next.js in creating high-performance, server-rendered React applications.
 
 ## Features
 - **TypeScript:** Written in TypeScript for improved code quality and maintainability.
