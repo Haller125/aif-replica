@@ -4,6 +4,8 @@ import NewsCard from "@/app/pages/news/news-cards/news-card";
 import NewsCardsPaginator from "@/app/pages/news/news-cards/news-cards-paginator";
 import {getNews} from "@/utils/backend-requests/back-api-requests";
 import newsCards from "@/app/pages/news/news-cards/news-cards";
+import NProgress from 'nprogress';
+import 'nprogress/nprogress.css'; // Import the CSS
 
 type NewsCardsProps = {
     NewsCardsProps: INews
@@ -16,10 +18,12 @@ const  NewsCards:React.FC<NewsCardsProps> = ({NewsCardsProps}) => {
     const [currentPage, setCurrentPage] = React.useState<number>(NewsCardsProps.meta.current_page);
 
     useEffect(() => {
+        NProgress.start(); // Start the spinner
         setIsLoading(true);
         getNews(currentPage, news.meta.per_page).then((res) => {
             setNews(res.data);
             setIsLoading(false);
+            NProgress.done(); // Stop the spinner
         });
     }, [currentPage]);
 

@@ -35,7 +35,11 @@ export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
     }
     catch (e:any) {
         console.log(e);
-        return e;
+        return {
+            props: {
+                error: e.message
+            }
+        };
     }
 }
 
