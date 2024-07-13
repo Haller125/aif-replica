@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Trans, useTranslation} from "next-i18next";
 
 const Bigtext:React.FC = () => {
     const { t } = useTranslation('main-page');
+
 
     return (
         <div className={"relative h-[700px] pt-[250px] text-center 2s:text-30px 3s:pt-[175px] 3.5s:h-550px 3.5s:pt-[200px] 4.5s:h-[600px] 4.5s:pt-[220px] 4.5s:mb-[50px]"}>
