@@ -1,6 +1,6 @@
 import React from 'react';
 import News from "@/app/pages/news/news";
-import {GetServerSideProps} from "next";
+import {GetServerSideProps, GetStaticProps} from "next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import {getNews} from "@/utils/backend-requests/back-api-requests";
 import {NewsCardsProps} from "@/utils/types/component-types";
@@ -18,7 +18,7 @@ const NewsPage:React.FC<NewsCardsProps> = ({newsRequest}) => {
 
 export default NewsPage;
 
-export const getServerSideProps:GetServerSideProps = async ({ locale }) => {
+export const getServerSideProps:GetStaticProps = async ({ locale }) => {
     try {
         const news = await getNews(1, 9);
 
