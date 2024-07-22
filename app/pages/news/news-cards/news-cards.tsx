@@ -1,3 +1,5 @@
+'use client'
+
 import React, {useEffect} from 'react';
 import {INews} from "@/utils/backend-requests/types/back-api-news-type";
 import NewsCard from "@/app/pages/news/news-cards/news-card";

@@ -18,7 +18,7 @@ const NewsPage:React.FC<NewsCardsProps> = ({newsRequest}) => {
 
 export default NewsPage;
 
-export const getServerSideProps:GetStaticProps = async ({ locale }) => {
+export const getStaticProps:GetStaticProps = async ({ locale }) => {
     try {
         const news = await getNews(1, 9);
 
