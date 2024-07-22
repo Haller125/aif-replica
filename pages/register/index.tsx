@@ -1,6 +1,6 @@
 import React from 'react';
 import Register from "@/app/pages/register/register";
-import {GetServerSideProps} from "next";
+import {GetServerSideProps, GetStaticProps} from "next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
 import WrapperDark from "@/app/components/wrappper-dark";
 
@@ -16,7 +16,7 @@ const Index:React.FC = () => {
 
 export default Index;
 
-export const getServerSideProps:GetServerSideProps = async ({ locale }) => {
+export const getStaticProps:GetStaticProps = async ({ locale }) => {
     try {
         return {
             props: {
