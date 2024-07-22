@@ -10,51 +10,51 @@ export type ListLinks = {
 export const archiveListLinks:ListLinks ={
     "en": [{
         name: "Speakers",
-        link: "/en/archive2023?t=speakers_2023"
+        link: "/"
     },
     {
         name: "Program",
-        link: "/en/archive2023?t=program_2023"
+        link: "/"
     },
     {
         name: "AIF Guide",
-        link: "/en/archive2023?t=aif_guide_2023"
+        link: "/"
     },
     {
         name: "Media",
-        link: "/en/archive2023?t=media_2023"
+        link: "/"
     },
     {
         name: "Partners",
-        link: "/en/archive2023?t=partners_2023"
+        link: "/"
     },
     {
         name: "Gallery",
-        link: "/en/gallery"
+        link: "/"
     }],
     "ru": [{
         name: "Спикеры",
-        link: "/ru/archive2023?t=speakers_2023"
+        link: "/"
     },
     {
         name: "Программа",
-        link: "/ru/archive2023?t=program_2023"
+        link: "/"
     },
     {
         name: "AIF Гид",
-        link: "/ru/archive2023?t=aif_guide_2023"
+        link: "/"
     },
     {
         name: "Медиа",
-        link: "/ru/archive2023?t=media_2023"
+        link: "/"
     },
     {
         name: "Партнеры",
-        link: "/ru/archive2023?t=partners_2023"
+        link: "/"
     },
     {
         name: "Галерея",
-        link: "/ru/gallery"
+        link: "/"
     }],
 
 };
@@ -63,21 +63,21 @@ export const aboutKazakhstanListLinks:ListLinks = {
     "en":[
         {
             name: "About Kazakhstan",
-            link: "/en/about-kazakhstan"
+            link: "/"
         },
         {
             name: "Take a tour of Kazakhstan",
-            link: "/en/tours-cities"
+            link: "/"
         }
     ],
     "ru":[
         {
             name: "О Казахстане",
-            link: "/ru/about-kazakhstan"
+            link: "/"
         },
         {
             name: "Путешествие по Казахстану",
-            link: "/ru/tours-cities"
+            link: "/"
         }
     ]
 }
